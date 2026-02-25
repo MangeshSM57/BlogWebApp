@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    margin: 40px;
+      /* navbar ki height ke according */
+
+}
+
+.inner-div1{
+  background-color: rgb(187, 223, 223);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+.mini-div-outer{
+   
+   padding: 10px;
+   margin: 4px;
+   width: 48%;
+
+}
+.social-media-icon{
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  gap:40px;
+  padding: 5px 7px;
+  font-size: 30px;
+}
+
+.fa-whatsapp:hover{
+  color: rgb(113, 221, 113);
+}
+.fa-instagram:hover {
+  color: #E1306C; /* Instagram pink */
+}
+.fa-facebook:hover{
+  color: blue;
+}
+.fa-square-twitter:hover{
+  color: rgb(55, 170, 202);
+}
+
+.card:hover{
+  background-color: #e78fac;
+   transform: translateX(-10px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+}
+
+.card {
+    transition: all 0.4s ease-in-out;
+}
